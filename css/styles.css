@@ -1,0 +1,36 @@
+:root {
+  --heading-font-family: "Yantramanav", sans-serif;
+  --default-font-family: "Noto Sans JP", sans-serif;
+  --background-color: #f8f8f7;
+  --main-text-color: #1a1a1a;
+}
+.hero {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  text-align: center;
+  font-family: var(--heading-font-family);
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+  color: hsl(0, 0%, 22%, 0.85);
+}
+.btn-outline-dark {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 8px 30px;
+}
