@@ -21,16 +21,53 @@
 .hero h1 {
   font-size: 96px;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   color: hsl(0, 0%, 22%, 0.85);
 }
 .btn-outline-dark {
   font-size: 18px;
   line-height: 27px;
   padding: 8px 30px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  font-family: var(--heading-font-family);
+  line-height: 30px;
+}
+
+.col img {
+  background-color: var(--background-color);
+  padding: 30px 30px;
+}
+
+.project-description {
+  padding: 30px 35px;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 52px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
