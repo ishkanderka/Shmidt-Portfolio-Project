@@ -4,6 +4,7 @@
   --background-color: #f8f8f7;
   --main-text-color: #1a1a1a;
 }
+/*index.html*/
 .hero {
   background-color: var(--background-color);
   color: var(--main-text-color);
@@ -55,6 +56,22 @@ p {
   padding: 30px 35px;
 }
 
+/*about.html*/
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero-content {
+  margin: 30px;
+}
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 52px;
@@ -69,5 +86,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
