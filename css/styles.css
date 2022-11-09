@@ -49,14 +49,21 @@ p {
 
 .col img {
   background-color: var(--background-color);
-  padding: 30px 30px;
+  padding: 16px 16px;
+}
+
+.content img {
+  padding: 0px 5px;
 }
 
 .project-description {
   padding: 30px 35px;
 }
 
-/*about.html*/
+/*about and work*/
+.wallpaper {
+  background-color: var(--background-color);
+}
 .content-container {
   padding: 160px 20px;
 }
@@ -81,6 +88,38 @@ p {
 .content p {
   font-size: 14px;
 }
+
+/*contact*/
+.contactme {
+  padding: 300px 20px;
+  font-weight: 550;
+}
+.socialmedia {
+  font-family: var(--heading-font-family);
+  font-size: 29px;
+  letter-spacing: 1.2px;
+  line-height: 1.3;
+  opacity: 50;
+}
+.socialmedia a:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.5px solid #1a1a1a;
+}
+.contactinfo {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+}
+
+.contactme a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 52px;
