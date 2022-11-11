@@ -3,6 +3,7 @@
   --default-font-family: "Noto Sans JP", sans-serif;
   --background-color: #f8f8f7;
   --main-text-color: #1a1a1a;
+  --hover-color: #a9131d;
 }
 /*index.html*/
 .hero {
@@ -20,7 +21,7 @@
 }
 
 .hero h1 {
-  font-size: 96px;
+  font-size: 106px;
   font-weight: bold;
   line-height: 1.5;
 }
@@ -31,10 +32,12 @@
   line-height: 1.5;
   color: hsl(0, 0%, 22%, 0.85);
 }
-.btn-outline-dark {
+.btn-outline-dark,
+.btn-dark {
   font-size: 18px;
   line-height: 27px;
   padding: 8px 30px;
+  font-family: var(--heading-font-family);
 }
 
 h2 {
@@ -42,7 +45,7 @@ h2 {
 }
 p {
   font-size: 16px;
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   line-height: 30px;
 }
 
@@ -119,9 +122,13 @@ p {
   text-decoration: none;
   color: #1a1a1a;
 }
+.navbar {
+  font-family: var(--heading-font-family) !important;
+}
 
 .navbar-brand {
-  font-size: 40px;
+  font-size: 14px;
+  margin-left: 50px;
 }
 
 .nav-item {
@@ -135,6 +142,47 @@ p {
 
 .active {
   color: #a9131d !important;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--background-color);
+  font-family: var(--heading-font-family);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0px;
+}
+
+h4 {
+  font-size: 36px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--hover-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--hover-color);
+  background-color: white;
 }
 
 @media (max-width: 960px) {
@@ -156,5 +204,8 @@ p {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .navbar-brand {
+    margin-left: 0px;
   }
 }
