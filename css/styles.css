@@ -63,11 +63,8 @@ p {
 }
 
 /*about and work*/
-.wallpaper {
-  background-color: var(--background-color);
-}
 .content-container {
-  padding: 90px 20px;
+  padding: 90px 20px 0px 20px;
 }
 
 .content {
@@ -90,6 +87,7 @@ p {
 
 .content p {
   font-size: 14px;
+  text-align: justify;
 }
 
 /*contact*/
@@ -183,6 +181,14 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--hover-color);
   background-color: white;
+}
+
+footer a {
+  color: var(--main-text-color);
+}
+
+.rights-line {
+  font-size: 14px;
 }
 
 @media (max-width: 960px) {

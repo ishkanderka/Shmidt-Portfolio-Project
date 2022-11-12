@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Victoria section tells us a story about a curiosity-driven front-end developer based in Canada."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,7 +30,10 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-white shadow">
       <div class="container-md">
-        <a class="navbar-brand text-muted text-uppercase" href="/"
+        <a
+          class="navbar-brand text-muted text-uppercase"
+          href="/"
+          title="Homepage"
           >Victoria Shmidt</a
         >
         <button
@@ -43,16 +50,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">HOME</a>
+              <a class="nav-link" aria-current="page" href="/" title="Homepage"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html">ABOUT</a>
+              <a
+                class="nav-link active"
+                href="/about.html"
+                title="About Victoria"
+                >ABOUT</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">WORK</a>
+              <a class="nav-link" href="/work.html" title="Victoria's projects"
+                >WORK</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">CONTACT</a>
+              <a class="nav-link" href="/contact.html" title="Contact Victoria"
+                >CONTACT</a
+              >
             </li>
           </ul>
         </div>
@@ -80,13 +98,78 @@
               and make us take a look at the world from the other’s point of
               view. Love is heavenly, and its capacity can bless us all.
             </p>
-            <a href="#" class="btn btn-outline-dark">See my projects</a>
+            <a href="work.html" class="btn btn-outline-dark" title="Work page"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/DSC03118.jpg" alt="" class="img-fluid rounded" />
+          <img
+            src="images/DSC03118.jpg"
+            alt="Victoria's portrait"
+            class="img-fluid rounded"
+          />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>For inquiries or a how you doing</h4>
+            <p class="text-muted">I will be happy to hear from you</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-dark mt-3"
+              title="Contact Victoria"
+              >CONTACT ME</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:victoriashmidt@outlook.com"
+            class="email-link"
+            title="Email Victoria"
+            >victoriashmidt@outlook.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.linkedin.com/in/victoria-shmidt-77081822a/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/ishkanderka"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/ishkanderka/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5 text-muted rights-line">
+          The project was designed & coded with 🖤 by Victoria Shmidt, and is
+          <a
+            href="https://github.com/ishkanderka/Shmidt-Portfolio-Project"
+            class="text-muted"
+            title="GitHub Account"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
