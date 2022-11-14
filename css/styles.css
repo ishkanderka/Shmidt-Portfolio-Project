@@ -214,4 +214,7 @@ footer a {
   .navbar-brand {
     margin-left: 0px;
   }
+  .nav-item {
+    padding: 0;
+  }
 }
